@@ -10,15 +10,15 @@ if __name__ == '__main__':
 
     source_directory = r"D:\dataset_new_diffstab"
 
-    data_cfg = os.path.join(source_directory, "dataset_diffstab.yaml")
+    data_cfg = os.path.join(source_directory, "dataset_stabilized_difference.yaml")
 
-    override_cfg = os.path.join(source_directory, "augmentation_diffstab.yaml")
+    override_cfg = os.path.join(source_directory, "augmentation_stabilized_difference.yaml")
 
-    experiment_name = "new_split_run"
+    experiment_name = "stabilized_difference_run"
 
     epoch_amount = 100
 
-    batch_size = 4
+    batch_size = 8
 
     image_size = 800
 
